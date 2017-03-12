@@ -1,4 +1,4 @@
-package ru.job4j;
+п»їpackage ru.job4j;
 
 /**
 *Calculate
@@ -9,7 +9,7 @@ package ru.job4j;
 public class Calculate {
 
 /**
-*Вывод строки в консоль
+*Р’С‹РІРѕРґ СЃС‚СЂРѕРєРё РІ РєРѕРЅСЃРѕР»СЊ
 *@param arg-arg
 */
 
