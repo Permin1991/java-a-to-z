@@ -1,5 +1,5 @@
 /**
-* //пакет для калькулятора
+* //пакет для тестирования
 *
 * @author Permin Daniil (mailto:danya1991@list.ru)
 * @version $Id$
