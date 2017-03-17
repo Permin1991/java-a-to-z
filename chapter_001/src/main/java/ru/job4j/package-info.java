@@ -1,4 +1,4 @@
-/**
+/**.
 * //пакет для калькулятора
 *
 * @author Permin Daniil (mailto:danya1991@list.ru)
