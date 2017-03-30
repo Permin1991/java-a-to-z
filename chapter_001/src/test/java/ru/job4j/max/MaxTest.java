@@ -18,6 +18,6 @@ public class MaxTest {
 	@Test
     public void searchMax() {
       	Max maximum = new Max();
-		assertThat(maximum.max(1, 5), is(5));
+		assertThat(maximum.maximumThreeNumber(1, 5, 8), is(8));
 	}
 }
