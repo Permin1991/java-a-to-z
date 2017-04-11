@@ -13,12 +13,14 @@ public class RotateArray {
 *@return array возвращаемый массив
 */
 	public int[][] rotate(int[][] array) {
-		for (int index = 0; index < array.length - 1; index++) {
-			int vremPer = array[0][index];
-			array[0][index] = array[array.length - 1 - index][0];
-			array[array.length - 1 - index][0] = array[array.length - 1][array.length - 1 - index];
-			array[array.length - 1][array.length - 1 - index] = array[index][array.length - 1];
-			array[index][array.length - 1] = vremPer;
+		for (int iMassive = 0; iMassive < array.length / 2; iMassive++) {
+			for (int index = iMassive; index < array.length - 1 - iMassive; index++) {
+			int vremPer = array[iMassive][index];
+			array[iMassive][index] = array[array.length - 1 - index][iMassive];
+			array[array.length - 1 - index][iMassive] = array[array.length - 1 - iMassive][array.length - 1 - index];
+			array[array.length - 1 - iMassive][array.length - 1 - index] = array[index][array.length - 1 - iMassive];
+			array[index][array.length - 1 - iMassive] = vremPer;
+			}
 		}
 		return array;
 	}
