@@ -19,8 +19,8 @@ public class TwoMassiveMerge {
 		int perMasResult = 0;
 		int perMasA = 0;
 		int perMasB = 0;
-		boolean endMasA = massiveA.length == 0 ? true : false;
-		boolean endMasB = massiveB.length == 0 ? true : false;
+		boolean endMasA = massiveA.length == 0;
+		boolean endMasB = massiveB.length == 0;
 		while (perMasResult < resultMassive.length) {
 			if (perMasA < massiveA.length) {
 				if (endMasB || massiveA[perMasA] <= massiveB[perMasB]) {
